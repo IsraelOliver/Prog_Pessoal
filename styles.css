@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloco {
+  margin: 30px;
+  background: rgb(250,187,108);
+  background: linear-gradient(320deg, rgba(250,187,108,1) 0%, rgba(149,64,139,1) 100%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  height: 370px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  border-image: linear-gradient(135deg, rgba(250,187,108,1) 0%, rgba(149,64,139,1) 100%);
+}
+
+img {
+  width: 260px;
+  height: 260px;
+  border-radius: 15px;
+  margin: 15px 10px;
+  transition: .5s;
+}
+
+img:hover {
+  transform: scale(105%);
+  border-radius: 25px;
+}
+
+.bloco h1 {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #000;
+  transition: .5s;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bloco h1:hover {
+  color: #fff;
+}
+
+.bloco h2 {
+  font-size: 13px;
+  color: #505050;
+}
+
+.buttonsControl {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botao {
+  transition: .5s;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.botao:hover, i:hover{
+  color: white;
+  font-size: 21px;
+}
